@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Car Type"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:padding="15sp"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCarType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"
+        android:padding="15sp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonSmallCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:textSize="20sp"
+            android:text="Small Car" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCompactSUV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20sp"
+            android:textSize="20sp"
+            android:text="Compact SUV" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMiniVan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20sp"
+            android:textSize="20sp"
+            android:text="Mini Van" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPickupVan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20sp"
+            android:textSize="20sp"
+            android:text="Pick-up Van" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:backgroundTint="#FD6A00"
+        android:text="Next" />
+
+
+</LinearLayout>
+ 

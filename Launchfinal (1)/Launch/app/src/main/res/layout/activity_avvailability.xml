@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Avvailability">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:orientation="vertical">
+
+        <CalendarView
+            android:id="@+id/calenderview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/reservedslotstxtv"
+            android:layout_width="408dp"
+            android:layout_height="47dp"
+            android:textColor="#000080"
+            android:text="Reserved Timeslots:" />
+
+        <TextView
+            android:id="@+id/reservedslotstxtv1"
+            android:layout_width="408dp"
+            android:layout_height="470dp"
+            android:text="" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

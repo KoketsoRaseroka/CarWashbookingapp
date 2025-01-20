@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Type"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewPaymentOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonPayCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colororange"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:text="Pay with Debit/Credit Card" />
+
+    <Button
+        android:id="@+id/buttonPayCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colororange"
+        android:text="Pay with Cash" />
+
+    <Button
+        android:id="@+id/buttonPayPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colororange"
+        android:text="Pay with PayPal"
+        android:textSize="20sp" />
+
+</LinearLayout>

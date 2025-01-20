@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+        android:id="@+id/lvparent"
+        android:orientation="vertical"
+        android:paddingTop="3dp">
+
+
+        <TextView
+            android:id="@+id/xtv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10sp"
+            android:text="My Profile"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ztv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20sp"
+            android:text="[Full Name]"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="590dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:src="@drawable/account_box_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/account_circle"
+            android:drawableRight="@drawable/arrow_forward"
+            android:insetTop="50dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Personal Details" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/payment"
+            android:drawableRight="@drawable/arrow_forward"
+            android:insetTop="50dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Payment Method" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/settings"
+            android:drawableRight="@drawable/arrow_forward"
+            android:insetTop="50dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Account Settings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/logout"
+            android:drawableRight="@drawable/arrow_forward"
+            android:insetTop="50dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Log Out" />
+
+
+    </LinearLayout>
+</RelativeLayout>

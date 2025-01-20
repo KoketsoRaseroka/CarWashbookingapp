@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mylogin">
+
+    <LinearLayout
+        android:id="@+id/lvparent2"
+        android:layout_width="361dp"
+        android:layout_height="669dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textV1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:paddingTop="80dp"
+            android:text="About Us"
+            android:textColor= "#000080"
+            android:textAlignment="center"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:text="SEBOTSANE CAR WASH (PTY) LTD is a sole owned company started by a young male with a passion for well-maintained cars. The company based in the west of Pretoria. The company provides services that are flexible unlike traditional carwashes, we give the client option of a custom/basic car wash services tailored according to their current needs and preference we also supply basic car cleaning and maintenance supplies. SEBOTSANE CAR WASH (PTY) LTD was started in terms of the SA Company Act of 2008, in the year 2019, on August 19 and we aim to provide the best service to our clients and experience. We believe the love between a person and their car can only be understood by those who have experienced it, which is why we pride ourselves to always leave your car looking spotless and as good as new"
+            android:paddingTop="7dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

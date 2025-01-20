@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Launch"
+        tools:targetApi="31">
+        <activity
+            android:name=".PreviousBooking"
+            android:exported="false" />
+        <activity
+            android:name=".UpcomingBooking"
+            android:exported="false" />
+        <activity android:name=".BookingNotice"
+            android:exported="false"
+            android:permission="android.permission.POST_NOTIFICATIONS">
+            <intent-filter>
+                <action android:name="com.example.launch.BOOKING_NOTICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Mybookings"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentGateway"
+            android:exported="false" />
+        <activity
+            android:name=".Bookingsummary"
+            android:exported="false" />
+        <activity
+            android:name=".DateTimePicker"
+            android:exported="false" />
+        <activity
+            android:name=".WashService"
+            android:exported="false" />
+        <activity
+            android:name=".Bookslot"
+            android:exported="false" />
+        <activity
+            android:name=".Contactus"
+            android:exported="false" />
+        <activity
+            android:name=".paymentoption"
+            android:exported="false" />
+        <activity
+            android:name=".Manageaccount"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".Avvailability"
+            android:exported="false" />
+        <activity
+            android:name=".Notificationss"
+            android:exported="false" />
+        <activity
+            android:name=".forgot"
+            android:exported="false" />
+        <activity
+            android:name=".Mysignup"
+            android:exported="false" />
+        <activity
+            android:name=".Mydashboard"
+            android:exported="false" />
+        <activity
+            android:name=".launchpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mylogin"
+            android:exported="false" />
+    </application>
+
+</manifest>

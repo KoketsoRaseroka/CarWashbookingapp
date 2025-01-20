@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:orientation="vertical"
+    tools:context=".Notificationss">
+
+
+    <Button
+
+        android:id="@+id/bnotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:drawableLeft="@drawable/notifications"
+        android:insetTop="50dp"
+        android:backgroundTint="#000080"
+        android:text="Booking Notifications" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#000080"
+        android:drawableLeft="@drawable/baseline_doorbell_24"
+        android:text="Promotions and Features Notifications" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#000080"
+        android:drawableLeft="@drawable/baseline_add_alert_24"
+        android:text="News and Alerts Notifications" />
+
+</LinearLayout>

@@ -38,8 +38,6 @@ Log In: Access your account securely.
 Book a Service: Select your preferred date, time, and service package.
 Receive Notifications: Stay updated on booking status and disruptions.
 Manage Bookings: Modify or cancel bookings as needed.
-Acknowledgments:
 
-Supervisor: Mr. S. Nhlapo
-Collaborators: Mpho Nhlapo, Veronica Raseruthe, Frank Mabulela, Koketso Raseroka
-Company Partner: Sebotsane Car Wash (Pty) Ltd
+
+
